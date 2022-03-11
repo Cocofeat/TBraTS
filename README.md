@@ -1,5 +1,5 @@
 # TXXX
-This repository provides the code for our submitted MICCAI'2022 paper "XXX"
+This repository provides the code for our submitted MICCAI'2022 paper "TXXX"
 ## Requirements
 Some important required packages include:  
 Pytorch version >=0.4.1.  
