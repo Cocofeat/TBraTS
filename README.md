@@ -1,5 +1,5 @@
-# TXXX
-This repository provides the code for our submitted MICCAI'2022 paper "TXXX"
+# TBraTS
+This repository provides the code for our accepted MICCAI'2022 paper "TBraTS: Trusted Brain Tumor Segmentation"
 ## Requirements
 Some important required packages include:  
 Pytorch version >=0.4.1.  
