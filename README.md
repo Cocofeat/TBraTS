@@ -13,4 +13,4 @@ If you find our work is helpful for your research, please consider to cite:
 Part of the code is revised from [TransBTS](https://github.com/Wenxuan-1119/TransBTS) 
 
 ## Contact
-If you have any problems about our work, please contact [me]
+If you have any problems about our work, please contact [me](kezou8@gmail.com) 
