@@ -25,7 +25,7 @@ If you find our work is helpful for your research, please consider to cite:
 }
 ```
 ## Acknowledgement
-Part of the code is revised from [TransBTS](https://github.com/Wenxuan-1119/TransBTS) 
+Part of the code is revised from [TransBTS](https://github.com/Wenxuan-1119/TransBTS) and [TMC](https://github.com/hanmenghan/TMC)
 
 ## Contact
 * If you have any problems about our work, please contact [me](https://mail.google.com/kezou8@gmail.com) 
