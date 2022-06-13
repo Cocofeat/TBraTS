@@ -14,6 +14,7 @@ Python == 3.7
 Some basic python packages such as Numpy.  
 ##  :fire: NEWS :fire:
 * We will release the code as soon as possible. 
+* We have uploaded our code.
 ## Citation
 If you find our work is helpful for your research, please consider to cite:  
 ```
