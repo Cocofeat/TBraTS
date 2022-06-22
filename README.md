@@ -24,6 +24,9 @@ If you find our work is helpful for your research, please consider to cite:
   booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
   year={2022}
 }
+```
+or
+```
 @misc{Coco2022TBraTSarxiv,
       title={TBraTS: Trusted Brain Tumor Segmentation}, 
       author={Ke Zou and Xuedong Yuan and Xiaojing Shen and Meng Wang and Huazhu Fu},
