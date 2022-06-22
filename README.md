@@ -28,13 +28,11 @@ If you find our work is helpful for your research, please consider to cite:
 ```
 or
 ```
-@misc{Coco2022TBraTSarxiv,
+@article{zou2022tbrats,
       title={TBraTS: Trusted Brain Tumor Segmentation}, 
       author={Ke Zou and Xuedong Yuan and Xiaojing Shen and Meng Wang and Huazhu Fu},
       year={2022},
-      eprint={2206.09309},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+      journal={arXiv preprint arXiv:2206.09309},
 }
 ```
 ## Acknowledgement
