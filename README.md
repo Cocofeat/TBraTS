@@ -24,6 +24,14 @@ If you find our work is helpful for your research, please consider to cite:
   booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
   year={2022}
 }
+@misc{Coco2022TBraTS,
+      title={TBraTS: Trusted Brain Tumor Segmentation}, 
+      author={Ke Zou and Xuedong Yuan and Xiaojing Shen and Meng Wang and Huazhu Fu},
+      year={2022},
+      eprint={2206.09309},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
 ```
 ## Acknowledgement
 Part of the code is revised from [TransBTS](https://github.com/Wenxuan-1119/TransBTS) and [TMC](https://github.com/hanmenghan/TMC)
