@@ -15,6 +15,7 @@ Some basic python packages such as Numpy.
 ##  :fire: NEWS :fire:
 * [06/05] We will release the code as soon as possible. 
 * [06/13] We have uploaded our code.
+* [06/22] Our preprinted version of the paper [TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/pdf/2206.09309.pdf)
 ## Citation
 If you find our work is helpful for your research, please consider to cite:  
 ```
