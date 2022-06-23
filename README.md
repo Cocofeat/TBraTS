@@ -14,7 +14,7 @@ Python == 3.7
 Some basic python packages such as Numpy.  
 ##  :fire: NEWS :fire:
 * [06/05] We will release the code as soon as possible. 
-* [06/13] We have uploaded our code.
+* [06/13] We have uploaded the main part of our code. We will upload all the code after camera-ready.
 * [06/22] Our pre-printed version of the paper is available at [TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)
 ## Citation
 If you find our work is helpful for your research, please consider to cite:  
