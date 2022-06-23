@@ -39,5 +39,5 @@ or
 Part of the code is revised from [TransBTS](https://github.com/Wenxuan-1119/TransBTS) and [TMC](https://github.com/hanmenghan/TMC)
 
 ## Contact
-* If you have any problems about our work, please contact [me](https://mail.google.com/kezou8@gmail.com) 
+* If you have any problems about our work, please contact [me](kezou8@gmail.com) 
 * Project Link: [TBraTS](https://github.com/Cocofeat/TBraTS/)
