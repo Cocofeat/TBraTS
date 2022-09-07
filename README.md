@@ -4,7 +4,7 @@
 ## Introduction
 Despite recent improvements in the accuracy of brain tumor segmentation, the results still exhibit low levels of confidence and robustness. Uncertainty estimation is one effective way to change this situation, as it provides a measure of confidence in the segmentation results. In this paper, we propose a trusted brain tumor segmentation network which can generate robust segmentation results and reliable uncertainty estimations without excessive computational burden and modification of the backbone network. In our method, uncertainty is modeled explicitly using subjective logic theory, which treats the predictions of backbone neural network as subjective opinions by parameterizing the class probabilities of the segmentation as a Dirichlet distribution. Meanwhile, the trusted segmentation framework learns the function that gathers reliable evidence from the feature leading to the final segmentation results. Overall, our unified trusted segmentation framework endows the model with reliability and robustness to out-of-distribution samples. To evaluate the effectiveness of our model in robustness and reliability, qualitative and quantitative experiments are conducted on the BraTS 2019 dataset.
 
-<div align=center><img width="900" height="400" alt="Our TBraTS framework" src="https://github.com/Cocofeat/TBraTS/blob/main/image/F1N.png"/></div>
+<div align=center><img width="900" height="400" alt="Our TBraTS framework" src="https://github.com/Cocofeat/TBraTS/blob/main/image/Trust_Step.gif"/></div>
 
 ## Requirements
 Some important required packages include:  
