@@ -18,10 +18,12 @@ Some basic python packages such as Numpy.
 
 ## Data Preprocess (BraTS 2019 & BraTS 2020)
 After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
-Follow the [TransBTS](https://github.com/Wenxuan-1119/TransBTS) in the `python3 preprocess.py` and my folder in the data/preprocessBraTS.py
+
+Follow the `python3 data/preprocessBraTS.py ` which is referenced from the [TransBTS](https://github.com/Wenxuan-1119/TransBTS/blob/main/data/preprocess.py)
 
 ## Training & Testing 
-Run the `python3 trainTBraTS.py ` : your own backbone with our framework(U/V/AU/TransBTS)\\
+Run the `python3 trainTBraTS.py ` : your own backbone with our framework(U/V/AU/TransBTS)
+
 Run the `python3 train.py ` : the backbone without our framework
 
 ##  :fire: NEWS :fire:
