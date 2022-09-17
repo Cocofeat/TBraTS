@@ -16,7 +16,7 @@ Some basic python packages such as Numpy.
 ## Data Acquisition
 - The multimodal brain tumor datasets (**BraTS 2019**) could be acquired from [here](https://ipp.cbica.upenn.edu/).
 
-## Data Preprocess (BraTS 2019 & BraTS 2020)
+## Data Preprocess
 After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
 
 Follow the `python3 data/preprocessBraTS.py ` which is referenced from the [TransBTS](https://github.com/Wenxuan-1119/TransBTS/blob/main/data/preprocess.py)
