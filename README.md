@@ -12,7 +12,21 @@ Pytorch version >=0.4.1.
 Visdom  
 Python == 3.7  
 Some basic python packages such as Numpy.  
+
+## Data Acquisition
+- The multimodal brain tumor datasets (**BraTS 2019**) could be acquired from [here](https://ipp.cbica.upenn.edu/).
+
+## Data Preprocess (BraTS 2019 & BraTS 2020)
+After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
+Follow the [TransBTS](https://github.com/Wenxuan-1119/TransBTS) in the `python3 preprocess.py` and my folder in the data/preprocessBraTS.py
+
+## Training & Testing 
+Run the `python3 trainTBraTS.py ` : your own backbone with our framework(U/V/AU/TransBTS)
+Run the `python3 train.py ` : the backbone without our framework
+
 ##  :fire: NEWS :fire:
+* [09/17] More experiments on trustworthy medical image segmentation please refer to [UMIS](https://github.com/Cocofeat/UMIS). 
+* [09/17] We released all the codes. 
 * [06/05] We will release the code as soon as possible. 
 * [06/13] We have uploaded the main part of our code. We will upload all the code after camera-ready.
 * [06/22] Our pre-printed version of the paper is available at [TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)
