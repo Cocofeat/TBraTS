@@ -21,7 +21,7 @@ After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data pr
 Follow the [TransBTS](https://github.com/Wenxuan-1119/TransBTS) in the `python3 preprocess.py` and my folder in the data/preprocessBraTS.py
 
 ## Training & Testing 
-Run the `python3 trainTBraTS.py ` : your own backbone with our framework(U/V/AU/TransBTS)
+Run the `python3 trainTBraTS.py ` : your own backbone with our framework(U/V/AU/TransBTS)\\
 Run the `python3 train.py ` : the backbone without our framework
 
 ##  :fire: NEWS :fire:
