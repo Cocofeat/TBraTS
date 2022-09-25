@@ -154,7 +154,7 @@ if __name__ == "__main__":
 
             with torch.no_grad():
                 args.mode = 'val'
-                evidences, evidence_a, loss = model(x, target[:, :, :, :155], current_epoch,args.mode) # two modality or four modality
+                evidences, loss = model(x, target[:, :, :, :155], current_epoch,args.mode) # two modality or four modality
                 # max
                 _, predicted = torch.max(evidence_a.data, 1)
                 output = predicted.cpu().detach().numpy()
@@ -223,11 +223,11 @@ if __name__ == "__main__":
             with torch.no_grad():
                 args.mode = 'test'
                 if not args.use_TTA:
-                    evidences, evidence_a, loss = model(x, target[:, :, :, :155], args.epochs,args.mode)
-                    noised_evidences, noised_evidence_a, noised_loss = model(noised_x, target[:, :, :, :155], args.epochs,args.mode)
+                    evidences, loss = model(x, target[:, :, :, :155], args.epochs,args.mode)
+                    noised_evidences, noised_loss = model(noised_x, target[:, :, :, :155], args.epochs,args.mode)
                 else:
-                    evidences, evidence_a, loss = model(x, target[:, :, :, :155], args.epochs,args.mode,args.use_TTA)
-                    noised_evidences, noised_evidence_a, noised_loss = model(noised_x, target[:, :, :, :155], args.epochs,args.mode,args.use_TTA)
+                    evidences, loss = model(x, target[:, :, :, :155], args.epochs,args.mode,args.use_TTA)
+                    noised_evidences, noised_loss = model(noised_x, target[:, :, :, :155], args.epochs,args.mode,args.use_TTA)
                 # results with TTA or not
 
                 output = F.softmax(evidence_a, dim=1)
