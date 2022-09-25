@@ -124,7 +124,7 @@ if __name__ == "__main__":
             x = input.cuda()  # for multi-modal combine train
             target = target.cuda()
             args.mode = 'train'
-            evidences, evidence_a, loss = model(x,target,epoch,args.mode)
+            evidences, loss = model(x,target,epoch,args.mode)
 
             print("%d/%d,train_loss:%0.3f" % (step, (dt_size - 1) // train_loader.batch_size + 1, loss.item()))
 
