@@ -156,7 +156,7 @@ if __name__ == "__main__":
                 args.mode = 'val'
                 evidences, loss = model(x, target[:, :, :, :155], current_epoch,args.mode) # two modality or four modality
                 # max
-                _, predicted = torch.max(evidence_a.data, 1)
+                _, predicted = torch.max(evidence.data, 1)
                 output = predicted.cpu().detach().numpy()
 
                 target = torch.squeeze(target).cpu().numpy()
@@ -230,7 +230,7 @@ if __name__ == "__main__":
                     noised_evidences, noised_loss = model(noised_x, target[:, :, :, :155], args.epochs,args.mode,args.use_TTA)
                 # results with TTA or not
 
-                output = F.softmax(evidence_a, dim=1)
+                output = F.softmax(evidence, dim=1)
                 # for input noise
                 noised_output = F.softmax(noised_evidence_a, dim=1)
 
