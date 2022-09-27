@@ -232,7 +232,7 @@ if __name__ == "__main__":
 
                 output = F.softmax(evidence, dim=1)
                 # for input noise
-                noised_output = F.softmax(noised_evidence_a, dim=1)
+                noised_output = F.softmax(noised_evidence, dim=1)
 
                 # dice
                 output = output[0, :, :args.input_H, :args.input_W, :args.input_D].cpu().detach().numpy()
