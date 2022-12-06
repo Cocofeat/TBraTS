@@ -37,20 +37,15 @@ Run the `python3 train.py ` : the backbone without our framework
 ## Citation
 If you find our work is helpful for your research, please consider to cite:  
 ```
-@inproceedings{Coco2022TBraTS,
-  title={TBraTS: Trusted Brain Tumor Segmentation},
-  author={Zou, Ke and Yuan, Xuedong and Shen, Xiaojing and Wang, Meng and Fu, Huazhu},
-  booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
-  year={2022}
+@InProceedings{Coco2022TBraTS,
+  author    = {Zou, Ke and Yuan, Xuedong and Shen, Xiaojing and Wang, Meng and Fu, Huazhu},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022},
+  title     = {TBraTS: Trusted Brain Tumor Segmentation},
+  year      = {2022},
+  address   = {Cham},
+  pages     = {503--513},
+  publisher = {Springer Nature Switzerland},
 }
-```
-or
-```
-@article{zou2022tbrats,
-      title={TBraTS: Trusted Brain Tumor Segmentation}, 
-      author={Ke Zou and Xuedong Yuan and Xiaojing Shen and Meng Wang and Huazhu Fu},
-      year={2022},
-      journal={arXiv preprint arXiv:2206.09309},
 }
 ```
 ## Acknowledgement
