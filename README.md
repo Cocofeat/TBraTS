@@ -1,7 +1,7 @@
 # TBraTS
 * This repository provides the code for our accepted MICCAI'2022 paper "TBraTS: Trusted Brain Tumor Segmentation"
 * Official implementation [TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)
-* Journal version [Paper](https://arxiv.org/abs/2301.00349)  [code](https://github.com/Cocofeat/UMIS)
+* Journal version [[Paper]](https://arxiv.org/abs/2301.00349)  [[code]](https://github.com/Cocofeat/UMIS)
 * Official video in [MICS2022](https://aim.nuist.edu.cn/events/mics2022.htm) of [TBraTS: Trusted Brain Tumor Segmentation](https://www.bilibili.com/video/BV1nW4y1a7Qp/?spm_id_from=333.337.search-card.all.click&vd_source=6ab19d355475883daafd34a6daae54a5) (**3rd Prize**)
 
 ## Introduction
