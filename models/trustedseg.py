@@ -81,7 +81,7 @@ class TMSU(nn.Module):
 
         # step two
         alpha = evidence + 1
-        if mode == 'train':
+        if mode == 'train' or mode == 'val':
             loss = dce_eviloss(y.to(torch.int64), alpha, self.classes, global_step, self.lambda_epochs)
             loss = torch.mean(loss)
             return evidence, loss
