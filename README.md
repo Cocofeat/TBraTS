@@ -47,7 +47,6 @@ If you find our work is helpful for your research, please consider to cite:
   pages     = {503--513},
   publisher = {Springer Nature Switzerland},
 }
-}
 ```
 ## Acknowledgement
 Part of the code is revised from [TransBTS](https://github.com/Wenxuan-1119/TransBTS) and [TMC](https://github.com/hanmenghan/TMC)
